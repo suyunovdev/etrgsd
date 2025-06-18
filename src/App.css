@@ -67,3 +67,123 @@ select {
   color: #272727;
   border: none;
 }
+
+.person2 {
+  width: 600px;
+}
+
+.chap {
+  width: 596px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chap > h1 {
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 146%;
+  letter-spacing: 0%;
+}
+.chap > p {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 171%;
+  letter-spacing: 0%;
+}
+
+.chap > button {
+  padding: 25px 47px;
+  border-radius: 50px;
+
+  background: green;
+}
+
+.pas {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 7px 10px 10px rgb(197, 197, 197);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.card {
+  width: 326px;
+  height: 326px;
+  box-shadow: 2px 10px 30px 0px #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.burger_circle {
+  width: 153px;
+  height: 153px;
+  border-radius: 50%;
+  background: #c1f1c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > h2 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card > p {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  margin-top: 78px;
+  justify-content: space-between;
+}
+
+.customer > h4 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 17.5%;
+  text-transform: uppercase;
+  color: #ff6868;
+}
+.customer > h2 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
